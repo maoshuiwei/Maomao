@@ -1,0 +1,371 @@
+{
+ "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+  "homepage": "https://github.com/hjdhnx/hipy-server",
+  "homeLogo": "./img/logo.png",
+  //"Logo": "./img/logo.png",
+  "logo": "./img/logo.gif",
+      //"spider": "./jar/xyqxbpq.jar",
+      //"spider": "./jar/XBPQ.jar",
+        "spider": "./jar/pizazz.jar",
+      "warningText": "此接口完全免费，请勿相信视频中任何广告，切勿付费购买此接口。",
+  "sites": [
+   {
+            "key": "guazi",
+            "name": "🍉**瓜子APP",
+            "type": 3,
+             "api": "csp_GuaziGuard",
+             //"api": "csp_Gz360",
+            //"api": "./py/吸瓜.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "jar": "./jar/ok.jar",
+            //"jar": "file://TVBoxOSC/tvbox/spider.jar",
+            "filterable": 1
+        },
+        {
+            "key": "Wexbaozitv",
+            "name": "🎇包子┃秒播🎇",
+            "type": 3,
+            "api": "csp_WexbaozitvGuard",
+            "jar": "./jar/fnw.jar",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "csp_Nmys",
+            "name": "🎇伯伯┃秒播🎇",
+            "type": 3,
+            "api": "csp_WexNmysGuard",
+            "jar": "./jar/fnw.jar",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Diduanys",
+            "name": "🎇深渊┃秒播🎇",
+            "type": 3,
+            "api": "csp_WexDiduanysGuard",
+            "jar": "./jar/fnw.jar",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexBDys",
+            "name": "🎇滴滴┃秒播🎇",
+            "type": 3,
+            "api": "csp_WexBDysGuard",
+            "jar": "./jar/fnw.jar",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexF4kvmGuard",
+            "name": "🎇纯享┃秒播🎇",
+            "type": 3,
+            "api": "csp_WexF4kvmGuard",
+            "jar": "./jar/fnw.jar",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexbttwoGuard",
+            "name": "🎇大鼻涕┃秒播🎇",
+            "type": 3,
+            "api": "csp_WexbttwoGuard",
+            "jar": "./jar/fnw.jar",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "WexikanbotGuard",
+            "name": "🎇爱看┃采集🎇",
+            "type": 3,
+            "api": "csp_WexikanbotGuard",
+            "jar": "./jar/fnw.jar",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+             "key": "瓜子影视",
+            "name": "18瓜子｜影视",
+            "type": 3,
+            "api": "csp_Gz360",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "./jar/og.jar"
+           // "jar": "http://pan.aa53.cn/down.php/774f111dea01917a2518a0f8c1793038.jar"
+        },
+         {
+            "key": "人人影视cc", 
+           "name": "17人人影视", 
+           "type":3,"api":"csp_XBPQ",              "ext": {
+           "请求头":"手机",
+           "简介":"小林子为您剧情介绍:+module-info-introduction-content\">&&</div>",
+           "分类url":"https://svip1.fun/index.php/vod/show/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+           "分类":"短剧$24#电视剧$21#电影$20#动漫$22#综艺$23"}
+           }, 
+           {
+      "key": "金牌3影视",
+      "name": "16金牌3🥇DJ☞|xbpq",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+      "简介": "简介：&&</div>",
+      //"状态": "更新时间：&&</p>",
+      //"线路数组": "data-toggle=&&</li>",
+      "主页url": "http://www.txzhongxing.com.cn/",
+      "分类url": "http://www.txzhongxing.com.cn/tx/{cateId}-{catePg}.html",
+      "分类": "电影&电视剧&动漫&综艺&短剧片&纪录片",
+      "分类值": "1&2&4&3&31&11"
+      //"搜索url": "http://www.njatlhb.com/vodsearch.html?wd={wd}"
+      }
+    },
+    { 
+            "key": "泥影视", 
+            "name": "15泥视频py", 
+            "type": 3, 
+            "api": "./py/泥视频.py", 
+            "searchable": 1, 
+            "filterable": 0, 
+            "changeable": 0 
+        },
+        {
+            "key": "厂长影院",
+            "name": "14厂长☞|xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+            "ext": {
+        "主页url":"https://www.czvod.cc/",
+        "分类url":"https://www.czvod.cc/type/{cateId}-{catePg}.html",
+        "分类": "电影$dianying#剧集$juji",
+        "数组":"class=\"stui-vodlist__box&&</h4>",
+        "标题":"title=\"&&\"",
+        "副标题":"class=\"pic-text text-right\"&&</span>",
+        "图片":"data-original=\"&&\"",
+        "链接":"href=\"&&\"",
+        "跳转播放链接":"src=\"&&\"",
+        "播放数组":"class=\"stui-content__playlist&&</ul>",
+        "播放列表":"<a&&</a>",
+        "播放标题":">&&</a>",
+        "线路数组":"class=\"stui-vodlist__head&&</div>",
+        "线路标题":">&&</h3>"
+      }
+      },
+      {
+            "key": "瓜皮影院",
+            "name": "13瓜皮☞|xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+            "ext": {
+            "简介": "简介：&&</div>",
+           "状态": "时间：&&</p>",
+           //"线路数组": "ewave-tab&&</li>",
+           //"播放数组": "anthology-list-play size&&</ul>",
+          "播放链接": "href=\"&&\"",
+           // "播放链接": "href='&&'",
+           //"跳转播放链接": "var player_*\"url\":\"&&\"",
+           // "数组":"col-xs-4&&</a>&nbsp;</p>",
+    "数组": "class=\"public-list-div public-list-bj\">&&</div>",
+            "线路数组": "class=\"fa ds-dianying\"&&</a>",
+    //"线路标题": "ds-dianying&&</span>",
+    "播放数组": "<ul class=\"anthology-list-play size\">&&</ul>",
+    "播放标题": "\">&&</a>",
+            //"副标题":"text-row-1\">&&</span>",
+          "图片":"data-src=\"&&\"",
+     "分类url": "https://www.gpvod.cc/vodshow/id/{cateId}.html",
+    "分类": "电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman#短剧$duanju"
+            }
+            },
+            {
+            "key": "麒麟影院",
+            "name": "12麒麟☞|xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+            //"简介": "简介：&&</div>",
+           //"状态": "时间：&&</p>",
+           "线路数组": "ewave-tab&&</li>",
+           //"播放数组": "anthology-list-play size&&</ul>",
+          // "播放链接": "href=\"&&\"",
+           // "播放链接": "href='&&'",
+           //"跳转播放链接": "var player_*\"url\":\"&&\"",
+            "数组":"col-xs-4&&</a>&nbsp;</p>",
+            "副标题":"text-row-1\">&&</span>",
+           "图片":"data-original=\"&&\"",
+     "分类url": "https://70ys.site/index.php/vod/type/id/{cateId}.html",
+    "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
+            }
+            },
+      {
+             "key":"csp_红狐狸",
+             "name":"11狐狸影视",
+             "type":3,
+             "api":"csp_XBPQ",
+             "ext":
+             {
+              "分类url":"https://honghuli.com/leibiao/{cateId}-{area}-------{catePg}---{year}.html",
+             "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
+              }
+             },
+             {
+            "key": "奇优影院tv",
+            "name": "10奇优L☞|xbpq",
+            "type": 3,
+            //"jar": "./jar/XBPQ.jar",
+            "api": "csp_XBPQ",
+            "ext": {
+            "简介": "简介：&&</div>",
+            "状态": "时间：&&</p>",
+            "分类url": "http://www.dyxz2.com/list/{cateId}_{catePg}.html#",
+   "分类": "电影$1#电视剧$2#综艺$4#动漫$3#伦理$6"
+            }
+        },
+        {
+   "key":"serv00-go",
+   "name":"9serv00-短剧",
+   "type":1,
+   "api":"http://zhangqun1818.serv00.net/ww.php",
+   "searchable":1,
+   "quickSearch":0,
+   "changeable":0
+   },
+   	{
+            "key": "瓜子影院",
+            "name": "8瓜子D☞|xbpq",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+            "简介": "描述:</strong>&&</div>",
+           "状态": "item-bottom\"&&</div>",
+           "导演": "导演:&&主演",
+           "主演": "主演:&&主演",
+           "数组": "public-list-box&&</div>",
+           "线路数组": "<a class=\"swiper-slide\"&&</a>",
+           "图片": "data-src=\"&&\"",
+           "标题": "title\"&&</div>",
+           "主页url": "https://gzvod.cc/",
+     "分类url": "https://gzvod.cc/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+    "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
+            }
+            },
+      {
+      "key": "py_bilibilivd",
+    "name": "7厂长资源py",
+    "type": 3,
+    "api": "./py/厂长资源.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {}
+},
+    { 
+            "key": "旺旺影视", 
+            "name": "6旺旺影视py", 
+            "type": 3, 
+            "api": "./py/农民影视.py", 
+            "searchable": 1, 
+            "filterable": 0, 
+            "changeable": 0 
+        },
+            { 
+            "key": "壹影视", 
+            "name": "5爱壹帆py", 
+            "type": 3, 
+            "api": "./py/爱壹帆.py", 
+            "searchable": 1, 
+            "filterable": 0, 
+            "changeable": 0 
+        },
+        { 
+            "key": "cn影视", 
+            "name": "4cnotvpy", 
+            "type": 3, 
+            "api": "./py/cnotv.py", 
+            "searchable": 1, 
+            "filterable": 0, 
+            "changeable": 0 
+        },
+          { 
+            "key": "界影视", 
+            "name": "3界影视py", 
+            "type": 3, 
+            "api": "./py/界影视.py", 
+            "searchable": 1, 
+            "filterable": 0, 
+            "changeable": 0 
+        },
+        { 
+            "key": "猎手吸瓜", 
+            "name": "2猎手影视py", 
+            "type": 3, 
+            "api": "./py/猎手影视.py", 
+            "searchable": 1, 
+            "filterable": 0, 
+            "changeable": 0 
+        },
+       { 
+            "key": "河马短剧", 
+            "name": "1河马短剧py", 
+            "type": 3, 
+            "api": "./py/河马短剧.py", 
+            "searchable": 1, 
+            "filterable": 0, 
+            "changeable": 0 
+        },
+        {
+            "key": "Missav",
+            "name": "**Missav",
+            "type": 3,
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "api": "./py/Miss.py",
+            "ext": {
+                "site": "https://missav.ai",
+                "cfgo":"./lib/cf-proxy-linux-arm64",
+                "plp": "",
+                "proxy": {
+                    "http": "http://127.0.0.1:1072",
+                    "https": "http://127.0.0.1:1072"
+                }
+            }
+        },
+       {"key": "live_freeshot.py",
+      "name": "**(翻墙)(18+)FreesHot(python)",
+      "type": 3,
+      "api": "https://d.kstore.dev/download/14756/python/live_freeshot.py",
+      "searchable": 1, 
+            "filterable": 0, 
+            "changeable": 0,
+            "ext": {}
+    },
+   {
+            "key": "农民影院tv",
+            "name": "**农民☞|xbpq",
+            "type": 3,
+            //"jar": "./jar/XBPQ.jar",
+            "api": "csp_XBPQ",
+           "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+          "二次截取": "class=\"col-lg-wide-8&&</div>",
+            "ext": {
+            "简介": "简介：&&</div>",
+            "状态": "时间：&&</p>",
+            "分类url": "https://www.nmdvd.cc/type/{cateId}.html",
+   "分类": "电影$dianying#电视剧$juji#综艺$4#动漫$3#伦理$6"
+            }
+        },
+         {
+  "key": "py_jieyingshi",
+  "name": "**界影视(T3)",
+  "type": 3,
+  "api": "https://d.kstore.dev/download/14756/python/vod_jieyingshi.py",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 0,
+  "changeable": 0
+}
+    ]
+   }
